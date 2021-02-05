@@ -22,6 +22,7 @@ namespace DigiApi.Controllers
     [ApiController]
     public class User : Controller
     {
+        //user crud
 
         private ApplicationDbContext _dbContext;
         private readonly UserManager<ApplicationUser> userManager;
